@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: a97f29e997d8dd946984497dd5fcfb84
+timeCreated: 1515397735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Altar
+    100002: Barrel
+    100004: Bed
+    100006: Box007
+    100008: Candle
+    100010: CandleProp
+    100012: Chair
+    100014: Crate_1
+    100016: Crate_2
+    100018: Cup
+    100020: Desk_L
+    100022: Desk_S
+    100024: Door_1
+    100026: Door_2
+    100028: Door_3
+    100030: Head
+    100032: L_foot
+    100034: L_Hand
+    100036: //RootNode
+    100038: pelvis
+    100040: Pillar
+    100042: R_foot
+    100044: R_Hand
+    100046: Rock_002
+    100048: Rock_1
+    100050: Rock_2
+    100052: Rock_3
+    100054: Rock_4
+    100056: Spine_1
+    100058: Spine_2
+    100060: Tomb
+    100062: TouchProp
+    100064: TreasureBox_1
+    100066: TreasureBox_2
+    400000: Altar
+    400002: Barrel
+    400004: Bed
+    400006: Box007
+    400008: Candle
+    400010: CandleProp
+    400012: Chair
+    400014: Crate_1
+    400016: Crate_2
+    400018: Cup
+    400020: Desk_L
+    400022: Desk_S
+    400024: Door_1
+    400026: Door_2
+    400028: Door_3
+    400030: Head
+    400032: L_foot
+    400034: L_Hand
+    400036: //RootNode
+    400038: pelvis
+    400040: Pillar
+    400042: R_foot
+    400044: R_Hand
+    400046: Rock_002
+    400048: Rock_1
+    400050: Rock_2
+    400052: Rock_3
+    400054: Rock_4
+    400056: Spine_1
+    400058: Spine_2
+    400060: Tomb
+    400062: TouchProp
+    400064: TreasureBox_1
+    400066: TreasureBox_2
+    2300000: Altar
+    2300002: Barrel
+    2300004: Bed
+    2300006: Box007
+    2300008: Candle
+    2300010: CandleProp
+    2300012: Chair
+    2300014: Crate_1
+    2300016: Crate_2
+    2300018: Cup
+    2300020: Desk_L
+    2300022: Desk_S
+    2300024: Door_1
+    2300026: Door_2
+    2300028: Door_3
+    2300030: Head
+    2300032: L_foot
+    2300034: L_Hand
+    2300036: pelvis
+    2300038: Pillar
+    2300040: R_foot
+    2300042: R_Hand
+    2300044: Rock_002
+    2300046: Rock_2
+    2300048: Rock_3
+    2300050: Rock_4
+    2300052: Spine_1
+    2300054: Spine_2
+    2300056: Tomb
+    2300058: TouchProp
+    2300060: TreasureBox_1
+    2300062: TreasureBox_2
+    3300000: Altar
+    3300002: Barrel
+    3300004: Bed
+    3300006: Box007
+    3300008: Candle
+    3300010: CandleProp
+    3300012: Chair
+    3300014: Crate_1
+    3300016: Crate_2
+    3300018: Cup
+    3300020: Desk_L
+    3300022: Desk_S
+    3300024: Door_1
+    3300026: Door_2
+    3300028: Door_3
+    3300030: Head
+    3300032: L_foot
+    3300034: L_Hand
+    3300036: pelvis
+    3300038: Pillar
+    3300040: R_foot
+    3300042: R_Hand
+    3300044: Rock_002
+    3300046: Rock_2
+    3300048: Rock_3
+    3300050: Rock_4
+    3300052: Spine_1
+    3300054: Spine_2
+    3300056: Tomb
+    3300058: TouchProp
+    3300060: TreasureBox_1
+    3300062: TreasureBox_2
+    4300000: Barrel
+    4300002: Bed
+    4300004: Chair
+    4300006: Candle
+    4300008: Tomb
+    4300010: TreasureBox_1
+    4300012: Altar
+    4300014: Pillar
+    4300016: TouchProp
+    4300018: Rock_002
+    4300020: Rock_2
+    4300022: Rock_3
+    4300024: Rock_4
+    4300026: Door_1
+    4300028: Crate_1
+    4300030: CandleProp
+    4300032: Cup
+    4300034: Desk_L
+    4300036: Desk_S
+    4300038: Door_2
+    4300040: Door_3
+    4300042: TreasureBox_2
+    4300044: Crate_2
+    4300046: Box007
+    4300048: Spine_2
+    4300050: Spine_1
+    4300052: Head
+    4300054: R_Hand
+    4300056: L_Hand
+    4300058: pelvis
+    4300060: L_foot
+    4300062: R_foot
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: f788a1e1eb7502048a82f8c46b49f395
+timeCreated: 1515314493
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger0Nub
+    100016: Bip001 L Foot
+    100018: Bip001 L Forearm
+    100020: Bip001 L Hand
+    100022: Bip001 L Thigh
+    100024: Bip001 L Toe0
+    100026: Bip001 L Toe0Nub
+    100028: Bip001 L UpperArm
+    100030: Bip001 Neck
+    100032: Bip001 Pelvis
+    100034: Bip001 R Calf
+    100036: Bip001 R Clavicle
+    100038: Bip001 R Finger0
+    100040: Bip001 R Finger0Nub
+    100042: Bip001 R Foot
+    100044: Bip001 R Forearm
+    100046: Bip001 R Hand
+    100048: Bip001 R Thigh
+    100050: Bip001 R Toe0
+    100052: Bip001 R Toe0Nub
+    100054: Bip001 R UpperArm
+    100056: Bip001 Spine
+    100058: Bip001 Spine1
+    100060: Box001
+    100062: //RootNode
+    100064: Sword
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger0Nub
+    400016: Bip001 L Foot
+    400018: Bip001 L Forearm
+    400020: Bip001 L Hand
+    400022: Bip001 L Thigh
+    400024: Bip001 L Toe0
+    400026: Bip001 L Toe0Nub
+    400028: Bip001 L UpperArm
+    400030: Bip001 Neck
+    400032: Bip001 Pelvis
+    400034: Bip001 R Calf
+    400036: Bip001 R Clavicle
+    400038: Bip001 R Finger0
+    400040: Bip001 R Finger0Nub
+    400042: Bip001 R Foot
+    400044: Bip001 R Forearm
+    400046: Bip001 R Hand
+    400048: Bip001 R Thigh
+    400050: Bip001 R Toe0
+    400052: Bip001 R Toe0Nub
+    400054: Bip001 R UpperArm
+    400056: Bip001 Spine
+    400058: Bip001 Spine1
+    400060: Box001
+    400062: //RootNode
+    400064: Sword
+    2300000: Sword
+    3300000: Sword
+    4300000: Box001
+    4300002: Sword
+    7400000: Walk
+    7400002: Combo_1
+    7400004: Combo_2_sibal
+    7400006: Combo_3
+    7400008: Combo_4
+    7400010: JumpAttack
+    7400012: Take 001 (6)
+    7400014: Combo_1_Sibal
+    7400016: Combo_2
+    7400018: Die
+    7400020: Combo_3_1
+    7400022: Combo_4_1
+    7400024: Intro
+    7400026: Outtro
+    9500000: //RootNode
+    13700000: Box001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.057416268
+        functionName: BossNavi
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.30722004
+        functionName: WalkSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7835157
+        functionName: WalkSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_1
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 3
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.09756097
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.40528944
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 18
+        messageOptions: 0
+      - time: 0.68292683
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 40
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7535156
+        functionName: AniLook
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.79818213
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 1.5
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.86915636
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.95609754
+        functionName: JumpSounnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.98536587
+        functionName: StopAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.6
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.25
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_2
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 20
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.12682927
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.28708133
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 13
+        messageOptions: 0
+      - time: 0.4790615
+        functionName: AniLook
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.51492447
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 2.5
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.56963694
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6217611
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.9804878
+        functionName: StopAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.3
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.25
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_4
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 20
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.2
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.13170733
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.16417319
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 1
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.20095694
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 10
+        messageOptions: 0
+      - time: 0.31350788
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 1
+        functionName: StopAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.05
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_1_Sibal
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.07655502
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.2
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.14634146
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.21881703
+        functionName: AniLook
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.27975258
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 20
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.45454547
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 18
+        messageOptions: 0
+      - time: 0.58064353
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 1
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6785612
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.7512195
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 3
+        messageOptions: 0
+      - time: 0.97073174
+        functionName: StopSlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.6
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.97073174
+        functionName: JumpSounnd
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_2_sibal
+      takeName: Take 001
+      firstFrame: 69
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.028708134
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 13
+        messageOptions: 0
+      - time: 0.107317075
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.13987991
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.18212602
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.8
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.21463415
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 3
+        messageOptions: 0
+      - time: 0.7176581
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Die
+      takeName: Take 001
+      firstFrame: 155
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.67464113
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.5
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Combo_4_1
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: AniLook
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 15
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.09569378
+        functionName: BossDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 10
+        messageOptions: 0
+      - time: 0.16585366
+        functionName: BossCombo
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.24333704
+        functionName: IsAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.30243903
+        functionName: AttackSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 2
+        messageOptions: 0
+      - time: 0.9754579
+        functionName: AttackMove
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: SlowAni
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0.15
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Intro
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: IsStart
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0
+        functionName: BossStart
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: ee671fde9b9614d4cb3ff762418b5f08,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
